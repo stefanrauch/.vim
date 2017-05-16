@@ -9,4 +9,6 @@ set hlsearch
 :nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 :set nocompatible
 :filetype indent plugin on
+:filetype plugin on
 :syntax on
+set autoindent
