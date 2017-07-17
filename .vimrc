@@ -12,8 +12,10 @@ set hlsearch
 :filetype plugin on
 :syntax on
 set autoindent
-:inoremap  jj <Esc>
-:inoremap <Esc> <nop>
-:vnoremap <Esc> <nop>
+:inoremap <Up> <nop>
+:inoremap <Down> <nop>
+:inoremap <Left> <nop>
+:inoremap <Right> <nop>
 command Vhdlicense :0r ~/.vim/vhdl_lgpl.txt
 command Clicense :0r ~/.vim/c_lgpl.txt
+let g:netrw_banner=0            " no banner
