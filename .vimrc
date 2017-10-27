@@ -12,6 +12,7 @@ set hlsearch
 :filetype plugin on
 :syntax on
 set autoindent
+set wildmode=longest:full,full
 :inoremap <Up> <nop>
 :inoremap <Down> <nop>
 :inoremap <Left> <nop>
