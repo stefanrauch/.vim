@@ -5,6 +5,7 @@ set shiftwidth=2
 set expandtab
 set cryptmethod=blowfish
 let g:solarized_termcolors=16
+set background=dark
 colorscheme solarized
 set hlsearch
 :nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
