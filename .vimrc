@@ -48,3 +48,5 @@ let g:clang_snippets_engine='clang_complete'
 let g:clang_library_path='/usr/lib/x86_64-linux-gnu/libclang.so'
 " get rid of preview window after completion
 autocmd CompleteDone * pclose
+set cursorline
+highlight CursorLineNr guifg=NONE ctermfg=NONE
