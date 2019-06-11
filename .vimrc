@@ -50,3 +50,4 @@ let g:clang_library_path='/usr/lib/x86_64-linux-gnu/libclang.so'
 autocmd CompleteDone * pclose
 set cursorline
 highlight CursorLineNr guifg=NONE ctermfg=NONE
+set nomodeline
