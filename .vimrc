@@ -14,6 +14,7 @@ set hlsearch
 :filetype plugin on
 :syntax on
 set autoindent
+set backspace=indent,start
 set wildmode=longest:full,full
 :inoremap <Up> <nop>
 :inoremap <Down> <nop>
