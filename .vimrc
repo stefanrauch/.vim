@@ -20,6 +20,10 @@ set wildmode=longest:full,full
 :inoremap <Down> <nop>
 :inoremap <Left> <nop>
 :inoremap <Right> <nop>
+:inoremap ii <ESC>
+:vnoremap ii <ESC>
+:cnoremap ii <ESC>
+:inoremap <ESC> <nop>
 command Vhdlicense :0r ~/.vim/vhdl_lgpl.txt
 command Clicense :0r ~/.vim/c_lgpl.txt
 let g:netrw_banner=0            " no banner
