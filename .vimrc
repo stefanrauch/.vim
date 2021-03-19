@@ -57,4 +57,3 @@ set cursorline
 highlight CursorLineNr guifg=NONE ctermfg=NONE
 set nomodeline
 " disable sound effect
-set belloff=all
